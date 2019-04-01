@@ -1,0 +1,28 @@
+header {
+    box-shadow: 2px 1px 5px rgba(0,0,0,.1);
+    position: fixed;
+    background: #fff;
+    top: 0;
+    width: 100%;
+}
+
+header .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 56px;
+}
+
+.header-container {
+    height: 56px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8a05be;
+    top:0px;
+}
+
+@media (min-width: 640px) {
+    header .header-content {
+        justify-content: left;
+    }
+}
